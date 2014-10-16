@@ -13,6 +13,7 @@ class MenuBuilder extends ContainerAware {
     private $cat = array('AD' => array('label' => 'Administración', 'icon' => 'glyphicon glyphicon-cog'),
         'IP' => array('label' => 'Identificación Paciente', 'icon' => 'glyphicon glyphicon-edit'),
         'RP' => array('label' => 'Reporte', 'icon' => 'glyphicon glyphicon-file'),
+        'RR' => array('label' => 'Romeo', 'icon' => 'glyphicon glyphicon-file'),
         'US' => array('label' => 'Usuario', 'icon' => 'glyphicon glyphicon-user'),
         'CT' => array('label' => 'Cita', 'icon' => 'glyphicon glyphicon-time'));
 

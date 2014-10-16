@@ -42,7 +42,9 @@ class AppKernel extends Kernel
             new Minsal\SeguimientoBundle\MinsalSeguimientoBundle(),
             new Minsal\CitasBundle\MinsalCitasBundle(),
             new ADesigns\CalendarBundle\ADesignsCalendarBundle(),
-        );
+
+            new Minsal\GinecologiaBundle\MinsalGinecologiaBundle(),
+          );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
             //$bundles[] = new Acme\DemoBundle\AcmeDemoBundle();
